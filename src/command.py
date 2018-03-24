@@ -9,8 +9,8 @@ from .room import Room
 def read_cmd(cmd: list, room: Room, player: Player) -> bool:
     """
     :param cmd: A list of words fed into the game, forming a command.
-    :param room:
-    :param player:
+    :param room: The current room the player is in.
+    :param player: The player.
     :returns: Is the game over?
     """
     if cmd[0] == "go":
