@@ -5,7 +5,9 @@ from player import Player
 def main():
     print("Welcome.")
     print("What is your name?")
-    name = input()
+    name = None
+    while name == None:
+        name = input()
     player = Player(name)
 
 if __name__ == "__main__":
