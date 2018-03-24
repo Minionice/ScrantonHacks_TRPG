@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from Player import player
+from player import Player
 
 def main():
     print("Welcome.")
